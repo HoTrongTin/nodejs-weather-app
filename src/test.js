@@ -79,5 +79,5 @@ app.get('/weather', (req, res) => {
 const port = process.env.PORT || 3000   //process.env.PORT: Heroku port value
 
 app.listen(port, () => {
-    console.log('Server is up on port 3000....')
+    console.log('Server is up on port ' + port + '....')
 })
